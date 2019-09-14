@@ -6,6 +6,6 @@
 s1 = "パタトクカシーー"
 
 # 【次の行を変更して、期待通り動くようにする】
+s2 = s1.length.times{ |n| p s1[n] if n.even?}
 
-
-puts s2 # => パトカー
+print s2 # => パトカー
